@@ -2,7 +2,9 @@ import React from 'react'
 
 const Offers = () => {
   return (
-    <div>Offers</div>
+    <div className='offers'>
+      <h1 className='fancy-text' data-text="Offers">Offers</h1>
+    </div>
   )
 }
 
