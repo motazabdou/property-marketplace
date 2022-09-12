@@ -22,15 +22,15 @@ const Navbar = () => {
         <nav className='navbar-nav'>
             <ul className='navbarListItems'>
                 <li className='navbarListItem' onClick={() => navigate('/')}>
-                    <ExploreIcon fill={fillColor('/') ? '#2c2c2c' : '#8f8f8f'} width='36px' height='36px' />
+                    <ExploreIcon fill={fillColor('/') ? '#cc0000' : '#8f8f8f'} width='36px' height='36px' />
                     <p className={fillColor('/') ? 'navbarListItemNameActive' : 'navbarListItemName'}><strong>Explore</strong></p>
                 </li>
                 <li className='navbarListItem' onClick={() => navigate('/offers')}>
-                    <OfferIcon fill={fillColor('/offers') ? '#2c2c2c' : '#8f8f8f'} width='36px' height='36px' />
+                    <OfferIcon fill={fillColor('/offers') ? '#cc0000' : '#8f8f8f'} width='36px' height='36px' />
                     <p className={fillColor('/offers') ? 'navbarListItemNameActive' : 'navbarListItemName'}><strong>Offers</strong></p>
                 </li>
                 <li className='navbarListItem' onClick={() => navigate('/profile')}>
-                    <PersonOutlineIcon fill={fillColor('/profile') ? '#2c2c2c' : '#8f8f8f'} width='36px' height='36px' />
+                    <PersonOutlineIcon fill={fillColor('/profile') ? '#cc0000' : '#8f8f8f'} width='36px' height='36px' />
                     <p className={fillColor('/profile') ? 'navbarListItemNameActive' : 'navbarListItemName'}><strong>Profile</strong></p>
                 </li>
             </ul>
